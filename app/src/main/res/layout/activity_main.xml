@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -10,7 +11,7 @@
 
     <TextView
         android:id="@+id/txtCity"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -21,7 +22,7 @@
 
     <TextView
         android:id="@+id/txtLastUpdate"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -31,37 +32,15 @@
         />
 
     <ImageView
+        android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:id="@+id/imageView"
         android:layout_gravity="center"
-        />
+        android:onClick="clickPePoza" />
 
     <TextView
         android:id="@+id/txtDescription"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:gravity="center"
-        />
-
-    <TextView
-        android:id="@+id/txtHumidity"
-        android:layout_marginTop="40dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:textStyle="bold"
-        android:textSize="30sp"
-        android:gravity="center"
-        />
-
-    <TextView
-        android:id="@+id/txtTime"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -72,7 +51,7 @@
 
     <TextView
         android:id="@+id/txtCelsius"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -80,4 +59,28 @@
         android:textSize="30sp"
         android:gravity="center"
         />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
 </LinearLayout>
+
